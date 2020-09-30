@@ -529,6 +529,7 @@ footer {
 
 .send-div a {
     position: absolute;
+    cursor: default;
 }
 
 .contenido-newsletter {
