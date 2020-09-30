@@ -798,6 +798,8 @@ footer {
         font-size: 10px;
         line-height: 17px;
         margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .social-networks img {
@@ -817,6 +819,11 @@ footer {
 
     .newsletter span {
         font-size: 23px;
+    }
+    
+    .feature-title {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .feature-d {
@@ -925,6 +932,8 @@ footer {
         font-size: 10px;
         line-height: 17px;
         margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .social-networks img {
@@ -953,6 +962,11 @@ footer {
     .newsletter input {
         width: 90%;
         margin: 0;
+    }
+    
+    .feature-title {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .feature-d {
