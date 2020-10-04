@@ -655,6 +655,18 @@ footer {
     object-fit: scale-down;
 }
 
+span a {
+    color: #a3cc87;
+}
+
+span a:hover {
+    color: #86a770;
+}
+
+span a:active {
+    color: #b2e58f;
+}
+
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
     .alignCenter-iframe {
         width: 85%;
