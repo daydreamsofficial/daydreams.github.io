@@ -77,7 +77,7 @@ function translater() {
             objetcs[5].innerHTML = "An innovative education";
             objetcs[6].innerHTML = "If you help us, we can create a <strong>learning academy</strong>, with fun and incredible methods like games!";
             objetcs[7].innerHTML = "Make us come true";
-            objetcs[8].innerHTML = "If you want to contribute to the development of <strong>Daydreams</strong>, you can <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5AM6TGK3H8PA&source=url' target='_blank'>donate to us</a>, or simply sign in at <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> Help us to carry this project forward! ❤";
+            objetcs[8].innerHTML = "If you want to contribute to the development of <strong>Daydreams</strong>, you can <a class='donativos' href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5AM6TGK3H8PA&source=url' target='_blank'>donate to us</a>, or simply sign in at <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> Help us to carry this project forward! ❤";
             objetcs[9].innerHTML = '"THE DIFFERENCE BETWEEN DREAMS AND REALITY, IS ACTION"';
             objetcs[10].innerHTML = " Official site.";
         break;
@@ -92,7 +92,7 @@ function translater() {
             objetcs[5].innerHTML = "Una educación innovadora";
             objetcs[6].innerHTML = "Si nos ayudas, podemos crear una <strong>academia de aprendizaje</strong>, con métodos divertidos e increíbles ¡como juegos!";
             objetcs[7].innerHTML = "Haznos realidad";
-            objetcs[8].innerHTML = "Si quieres contribuir en el desarrollo de <strong>Daydreams</strong>, puedes <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5AM6TGK3H8PA&source=url' target='_blank'>donarnos</a>, o simplemente firmar en <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> ¡Ayúdanos a sacar adelante este proyecto! ❤";
+            objetcs[8].innerHTML = "Si quieres contribuir en el desarrollo de <strong>Daydreams</strong>, puedes <a class='donativos' href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5AM6TGK3H8PA&source=url' target='_blank'>donarnos</a>, o simplemente firmar en <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> ¡Ayúdanos a sacar adelante este proyecto! ❤";
             objetcs[9].innerHTML = '"LA DIFERENCIA ENTRE LOS SUEÑOS Y LA REALIDAD, ES LA ACCIÓN"';
             objetcs[10].innerHTML = " Sitio Oficial.";
         break;
@@ -107,7 +107,7 @@ function translater() {
             objetcs[5].innerHTML = "Uma educação inovadora";
             objetcs[6].innerHTML = "Se você nos ajudar, podemos criar uma <strong>academia de aprendizagem</strong>, com métodos divertidos e incríveis como os jogos!";
             objetcs[7].innerHTML = "Nos tornar realidade";
-            objetcs[8].innerHTML = "Se você deseja contribuir para o desenvolvimento do <strong>Daydreams</strong>, você pode fazer uma <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5AM6TGK3H8PA&source=url' target='_blank'>doação para nós</a> ou simplesmente assinar no <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> Ajude-nos a levar este projeto adiante! ❤";
+            objetcs[8].innerHTML = "Se você deseja contribuir para o desenvolvimento do <strong>Daydreams</strong>, você pode fazer uma <a class='donativos' href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5AM6TGK3H8PA&source=url' target='_blank'>doação para nós</a> ou simplesmente assinar no <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> Ajude-nos a levar este projeto adiante! ❤";
             objetcs[9].innerHTML = '"A DIFERENÇA ENTRE OS SONHOS E A REALIDADE, É A AÇÃO"';
             objetcs[10].innerHTML = " Site Oficial.";
         break;
