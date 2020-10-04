@@ -77,7 +77,7 @@ function translater() {
             objetcs[5].innerHTML = "An innovative education";
             objetcs[6].innerHTML = "If you help us, we can create a <strong>learning academy</strong>, with fun and incredible methods like games!";
             objetcs[7].innerHTML = "Make us come true";
-            objetcs[8].innerHTML = "If you want to contribute to the development of <strong>Daydreams</strong>, you can <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K5AM6TGK3H8PA&source=url">donate to us</a>, or simply sign in at <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> Help us to carry this project forward! ❤";
+            objetcs[8].innerHTML = "If you want to contribute to the development of <strong>Daydreams</strong>, you can donate to us, or simply sign in at <a href='https://www.change.org/MejoremosLatinoamerica' target='_blank'>Change.org.</a> Help us to carry this project forward! ❤";
             objetcs[9].innerHTML = '"THE DIFFERENCE BETWEEN DREAMS AND REALITY, IS ACTION"';
             objetcs[10].innerHTML = " Official site.";
         break;
