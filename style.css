@@ -476,6 +476,18 @@ li {
     justify-content: center;
 }
 
+.donativos {
+    color: #14c6c6;
+}
+
+.donativos:hover {
+    color: #12a7a7;
+}
+
+.donativos:active {
+    color: #19dbdb;
+}
+
 footer {
     font-family: 'Press Start 2P', cursive;
     display: table;
