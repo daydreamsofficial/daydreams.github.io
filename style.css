@@ -136,7 +136,7 @@ h2, h5 {
 }
 
 header {
-    background-image: url("g-background.webp");
+    background-image: url("g-background.png");
     background-attachment: fixed;
     background-size: cover;
     text-align: center; 
@@ -284,7 +284,7 @@ main {
     text-align: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("second-background.webp");
+    background-image: url("second-background.png");
     color: white;
     image-rendering: auto;
 }
