@@ -32,6 +32,17 @@ function scrollDown() {
     window.scrollBy(0, alturaMain - 20 - document.documentElement.scrollTop);
 }
 
+var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+var is_opera = navigator.userAgent.toLowerCase().indexOf('opera') > -1;
+var is_edge = navigator.userAgent.toLowerCase().indexOf('edge') > -1;
+
+if (!is_chrome && !is_firefox && !is_opera && !is_edge) {
+    $(".animado").removeClass("animado");
+    $(".fua").css({"opacity":"1"})
+    $(".fua").removeClass("fua");
+}
+
 let animado = document.querySelectorAll(".animado");
 var cantidadObjetosAnimando = animado.length;
 
