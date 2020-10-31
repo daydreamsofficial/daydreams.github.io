@@ -82,7 +82,7 @@ function translater() {
             document.documentElement.lang = "en";
             objetcs[0].innerHTML = "Click here to learn more :)";
             objetcs[1].innerHTML = "Coming soon!";
-            objetcs[2].innerHTML = "<strong>Daydreams</strong> is a Shonen anime in development, being carried out by a one-person animation studio. The plot focuses on the life of Melanie, a 17-year-old teenager who dreamed of being a heroine, until she came across a band (and not exactly rock band) that would make her stop dreaming. After several years living a normal life, she finds herself in a unique situation that will lead her to change the course of her life forever, going into adventures and fighting relentless monsters with her best friend Senpai to regain peace in the world.";
+            objetcs[2].innerHTML = "<strong>Daydreams</strong> is a Shonen anime in development, being carried out by a animation studio. The plot focuses on the life of Melanie, a 17-year-old teenager who dreamed of being a heroine, until she came across a band (and not exactly rock band) that would make her stop dreaming. After several years living a normal life, she finds herself in a unique situation that will lead her to change the course of her life forever, going into adventures and fighting relentless monsters with her best friend Senpai to regain peace in the world.";
             objetcs[3].innerHTML = "Daydreams the game";
             objetcs[4].innerHTML = "Depending on the budget, there may be a game about <strong>Daydreams</strong> later. Which would leave a great teaching with its history.";
             objetcs[5].innerHTML = "An innovative education";
@@ -97,7 +97,7 @@ function translater() {
             document.documentElement.lang = "es";
             objetcs[0].innerHTML = "Haz clic aquí para obtener más información :)";
             objetcs[1].innerHTML = "¡Próximamente!";
-            objetcs[2].innerHTML = "<strong>Daydreams</strong> es un anime tipo Shonen en desarrollo, realizado por un estudio de animación unipersonal. La trama se centra en la vida de Melanie, una adolescente de 17 años que soñaba con ser una heroína, hasta que se topó con una banda (y no precisamente de rock) que la haría dejar de soñar. Tras varios años viviendo una vida normal, se encuentra en una singularidad que la llevará a cambiar el curso de su vida para siempre, adentrándose en aventuras y luchando contra monstruos implacables con su mejor amigo Senpai, para recuperar la paz en el mundo.";
+            objetcs[2].innerHTML = "<strong>Daydreams</strong> es un anime tipo Shonen en desarrollo, realizado por un estudio de animación. La trama se centra en la vida de Melanie, una adolescente de 17 años que soñaba con ser una heroína, hasta que se topó con una banda (y no precisamente de rock) que la haría dejar de soñar. Tras varios años viviendo una vida normal, se encuentra en una singularidad que la llevará a cambiar el curso de su vida para siempre, adentrándose en aventuras y luchando contra monstruos implacables con su mejor amigo Senpai, para recuperar la paz en el mundo.";
             objetcs[3].innerHTML = "Daydreams el juego";
             objetcs[4].innerHTML = "Dependiendo del presupuesto, puede haber un juego sobre <strong>Daydreams</strong> más adelante. El cual, dejaría una gran <strong>enseñanza</strong> con su historia.";
             objetcs[5].innerHTML = "Una educación innovadora";
@@ -112,7 +112,7 @@ function translater() {
             document.documentElement.lang = "pt";
             objetcs[0].innerHTML = "Clique aqui para obter mais informações :)";
             objetcs[1].innerHTML = "Em breve!";
-            objetcs[2].innerHTML = "<strong>Daydreams</strong> é um anime do tipo Shonen em desenvolvimento, feito por um estúdio de animação de um homem só. A trama gira em torno da vida de Melanie, uma adolescente de 17 anos que sonhava em ser uma heroína, até que encontrou uma banda (e não exatamente uma banda de rock) que a faria parar de sonhar. Após vários anos vivendo uma vida normal, ela se encontra em uma situação única que a levará a mudar o curso de sua vida para sempre, aventurando-se em aventuras e lutando contra monstros implacáveis ​​com seu melhor amigo Senpai, para recuperar a paz no mundo.";
+            objetcs[2].innerHTML = "<strong>Daydreams</strong> é um anime do tipo Shonen em desenvolvimento, feito por um estúdio de animação. A trama gira em torno da vida de Melanie, uma adolescente de 17 anos que sonhava em ser uma heroína, até que encontrou uma banda (e não exatamente uma banda de rock) que a faria parar de sonhar. Após vários anos vivendo uma vida normal, ela se encontra em uma situação única que a levará a mudar o curso de sua vida para sempre, aventurando-se em aventuras e lutando contra monstros implacáveis ​​com seu melhor amigo Senpai, para recuperar a paz no mundo.";
             objetcs[3].innerHTML = "Daydreams o jogo";
             objetcs[4].innerHTML = "Dependendo do orçamento, pode haver um jogo sobre <strong>Daydreams</strong> mais tarde. O que deixaria um grande ensinamento com sua história.";
             objetcs[5].innerHTML = "Uma educação inovadora";
