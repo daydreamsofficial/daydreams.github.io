@@ -137,6 +137,7 @@ h2, h5 {
 
 header {
     background-image: url("g-background.png");
+    background-position: center;
     background-attachment: fixed;
     display: table;
     background-size: cover;
@@ -189,6 +190,7 @@ header img {
 
 .scroll-div {
     margin-bottom: 30px;
+    color: black;
 }
 
 .doScroll {
