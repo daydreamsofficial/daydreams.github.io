@@ -580,6 +580,8 @@ footer {
 
 .social-networks {
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .information {
@@ -592,6 +594,7 @@ footer {
 }
 
 .social-networks a {
+    margin: 0 15px 0 15px;
     text-decoration: none;
     filter: grayscale(100%);
     transition: 0.3s;
