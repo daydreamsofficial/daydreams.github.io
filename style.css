@@ -1002,7 +1002,55 @@ span a:active {
     }
 }
 
-@media only screen and (max-height: 324px) {
+@media only screen and (min-height: 380px) and (max-height: 545px) {
+    header img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .scroll-div span {
+        font-size: 10px;
+    }
+
+    .scroll-div input {
+        width: 40px;
+    }
+}
+
+@media only screen and (min-height: 325px) and (max-height: 379px) {
+    header img {
+        width: 240px;
+        height: 150px;
+    }
+
+    .scroll-div span {
+        font-size: 12px;
+    }
+
+    .scroll-div input {
+        width: 40px;
+    }
+}
+
+@media only screen and (min-height: 298px) and (max-height: 324px) {
+    header img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .cont-sc {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 297px) {
+    header img {
+        max-width: 40%;
+        padding: 25px;
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+    }
+
     .cont-sc {
         display: none;
     }
