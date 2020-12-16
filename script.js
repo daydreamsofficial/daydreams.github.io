@@ -51,7 +51,7 @@ for (; i < cantidadObjetosAnimando; i++) {
 }
 
 function mostrarScroll() {
-    let scrollTop = document.documentElement.scrollTop;
+    let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
     let i = 0;
     let cantidad = animado.length;
     for (; i < cantidad; i++) {
