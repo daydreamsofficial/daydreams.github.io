@@ -1,70 +1,3 @@
-var fuas = document.getElementsByClassName("fua");
-var delay = 0;
-let i = 0;
-var cantidadObjetos = fuas.length;
-
-for (; i < cantidadObjetos; i++) {
-    fuas[i].style.opacity = 0;
-}
-
-i = 0;
-
-for (i = 0; i < cantidadObjetos; i++) { 
-    myFunction(i);
-    delay += 0.5;
-}
-
-function endfua(ide) {
-    fuas[ide].style.opacity = 1;
-}
-
-function myFunction(value) {
-    setTimeout(function() { 
-        fuas[value].style.animation = "toUp 1.7s";
-        fuas[value].addEventListener("animationend", endfua(value));
-
-    }, delay * 1000);
-}
-
-function scrollDown() {
-    let elemento = document.getElementsByClassName("alignCenter-iframe");
-    let alturaMain = elemento[0].offsetTop;
-    window.scrollBy(0, alturaMain - 20 - document.documentElement.scrollTop);
-}
-
-var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-var is_opera = navigator.userAgent.toLowerCase().indexOf('opera') > -1;
-var is_edge = navigator.userAgent.toLowerCase().indexOf('edge') > -1;
-
-if (!is_chrome && !is_firefox && !is_opera && !is_edge) {
-    $(".animado").removeClass("animado");
-    $(".fua").css({"opacity":"1"})
-    $(".fua").removeClass("fua");
-}
-
-let animado = document.querySelectorAll(".animado");
-var cantidadObjetosAnimando = animado.length;
-
-for (; i < cantidadObjetosAnimando; i++) {
-    animado[i].style.opacity = 0;
-}
-
-function mostrarScroll() {
-    let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    let i = 0;
-    let cantidad = animado.length;
-    for (; i < cantidad; i++) {
-        let alturaAnimado = animado[i].offsetTop;
-        if (alturaAnimado - 750 < scrollTop) {
-            animado[i].style.opacity = 1; 
-            animado[i].classList.add(animado[i].id);
-        }
-    }
-}
-
-window.addEventListener("scroll", mostrarScroll);
-
 var modal = document.getElementById("zoom1");
 var modal2 = document.getElementById("zoom2");
 
@@ -130,8 +63,12 @@ $(document).ready(function() {
         translater();
     });
 
-    $("#button-scroll").click(function() {
-        scrollDown();
+    $("#button-scroll").click(function(e) {
+        if (this.hash !== "") {
+            e.preventDefault();
+            const hash = this.hash;
+            $("html, body").animate({scrollTop: $(".alignCenter-iframe").offset().top - 20}, 900);
+        }
     });
 
     $(".pixelt").click(function() {
