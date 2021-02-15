@@ -21,6 +21,11 @@ body {
     color: rgb(172, 172, 172);
 }
 
+#zoom1, #zoom2 {
+    transition: all .5s;
+    transform: scale(1.2);
+}
+
 ::-webkit-scrollbar {
     background-color: transparent;
 }
@@ -539,7 +544,9 @@ footer {
 }
 
 .first-scrn {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -572,7 +579,9 @@ footer {
 }
 
 .second-scrn {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
     position: fixed;
     justify-content: center;
     align-items: center;

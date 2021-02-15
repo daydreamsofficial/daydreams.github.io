@@ -2,8 +2,16 @@ var modal = document.getElementById("zoom1");
 var modal2 = document.getElementById("zoom2");
 
 window.onclick = function(event) {
-    if (event.target == modal) modal.style.display = "none";
-    if (event.target == modal2) modal2.style.display = "none";
+    if (event.target == modal) {
+        document.getElementById('zoom1').style.visibility = "hidden";
+        document.getElementById('zoom1').style.opacity = 0;
+        $("#zoom1").css("transform", "scale(1.2)");
+    }
+    if (event.target == modal2) {
+        document.getElementById('zoom2').style.visibility = "hidden";
+        document.getElementById('zoom2').style.opacity = 0;
+        $("#zoom2").css("transform", "scale(1.2)");
+    }
 }
 
 function translater() {
@@ -72,19 +80,27 @@ $(document).ready(function() {
     });
 
     $(".pixelt").click(function() {
-        document.getElementById('zoom1').style.display='flex';
+        document.getElementById('zoom1').style.visibility = "visible";
+        document.getElementById('zoom1').style.opacity = 1;
+        $("#zoom1").css("transform", "none");
     });
 
     $("#pixelt1").click(function() {
-        document.getElementById('zoom2').style.display='flex';
+        document.getElementById('zoom2').style.visibility = "visible";
+        document.getElementById('zoom2').style.opacity = 1;
+        $("#zoom2").css("transform", "none");
     });
 
     $("#cerrar").click(function() {
-        document.getElementById('zoom1').style.display='none';
+        document.getElementById('zoom1').style.visibility = "hidden";
+        document.getElementById('zoom1').style.opacity = 0;
+        $("#zoom1").css("transform", "scale(1.2)");
     });
 
     $("#cerrar1").click(function() {
-        document.getElementById('zoom2').style.display='none';
+        document.getElementById('zoom2').style.visibility = "hidden";
+        document.getElementById('zoom2').style.opacity = 0;
+        $("#zoom2").css("transform", "scale(1.2)");
     });
 
     let userLang = navigator.language || navigator.userLanguage;
